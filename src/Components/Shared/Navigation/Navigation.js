@@ -12,16 +12,16 @@ const Navigation = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav  m-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                    <a className="nav-link active text-white fw-bolder fs-5" aria-current="" href="#">Home</a>
+                    <a className="nav-link active text-white fw-bolder fs-5 nav-section" aria-current="" href="#">Home</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link active text-white fw-bolder fs-5" aria-current="page" href="#">Service</a>
+                    <a className="nav-link active text-white fw-bolder fs-5 nav-section" aria-current="page" href="#">Service</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link active text-white fw-bolder fs-5" aria-current="page" href="#">Blogs</a>
+                    <a className="nav-link active text-white fw-bolder fs-5 nav-section" aria-current="page" href="#">Blogs</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link active text-white fw-bolder fs-5" aria-current="page" href="#">About</a>
+                    <a className="nav-link active text-white fw-bolder fs-5 nav-section" aria-current="page" href="#">About</a>
                     </li>
                </ul>
             <button className="btn btn-outline-danger" type="submit">Log In</button>

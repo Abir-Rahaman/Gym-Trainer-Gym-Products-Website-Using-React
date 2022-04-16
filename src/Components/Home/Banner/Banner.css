@@ -1,0 +1,10 @@
+.full-banner{
+    background-image: url('../../../Images/gym-banner.png');
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+
+.banner-title{
+    font-size: 60px;
+}
