@@ -6,7 +6,7 @@ import auth from '../../firebase.init';
 import './SignIn.css'
 
 const SignIn = () => {
-    const [createUserWithEmailAndPassword, user] = useCreateUserWithEmailAndPassword(auth);
+    const [createUserWithEmailAndPassword, user] = useCreateUserWithEmailAndPassword(auth , {sendEmailVerification :true});
     const [signInWithGoogle] = useSignInWithGoogle(auth);
     const [name , setName] = useState("");
     const [email , setEmail] = useState("");
