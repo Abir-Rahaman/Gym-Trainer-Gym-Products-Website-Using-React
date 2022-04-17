@@ -1,11 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import auth from '../../firebase.init';
 import './Login.css'
 
+
+
 const Login = () => {
+    const [signInWithGoogle] = useSignInWithGoogle(auth);
+
     return (
      <div className="login-banner mt-5">
-           <button  className="btn d-block mx-auto btn-outline-danger px-5 fw-bolder fs-5"> Sign in with Google </button>
+           <button onClick={() =>signInWithGoogle()}  className="btn d-block mx-auto btn-outline-danger px-5 fw-bolder fs-5"> Sign in with Google </button>
         <form className='w-25 mx-auto mt-5' >
             <h4 className='text-center fw-bolder text-success mb-4'> Log In to RexXFit </h4>
             <div className="mb-3">

@@ -17,7 +17,7 @@ const Checkout = () => {
                 <div className="mb-3">
                 <label for="exampleFormControlTextarea1" className="fw-bolder fs-5 text-success form-label"> Anything Want To Say  </label>
                 <textarea className="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                <button className="btn btn-outline-success mt-4 fw-bolder fs-5 px-5 py-2 rounded-pill m-auto" type="submit"> Submit </button>
+                <button className="btn btn-outline-success mt-4 fw-bolder fs-5 px-5 py-2 rounded-pill m-auto" type="submit"> Confirm Order  </button>
              </div>
         </div>
         
