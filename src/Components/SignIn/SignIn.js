@@ -39,7 +39,7 @@ const SignIn = () => {
         if(password.length <= 6 ){
             setError (" Password should be six characters ")
         }
-        createUserWithEmailAndPassword(email , password);
+        createUserWithEmailAndPassword(email,password);
     }
 
     if (user){
@@ -54,7 +54,6 @@ const SignIn = () => {
             <div className="mb-3">
                 <label for="exampleInput" className="form-label text-success fw-bolder"> Your Name</label>
                 <input onBlur={handleName} type="text" className="form-control" required id="exampleInput" aria-describedby="Help"/>
-               
             </div>
             <div className="mb-3">
                 <label for="exampleInputEmail1" className="form-label text-success fw-bolder">Email address</label>
