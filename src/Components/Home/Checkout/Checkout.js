@@ -6,13 +6,13 @@ const Checkout = () => {
         <div className="w-50 mx-auto mt-5">
             <div className="mb-3">
                 <label for="exampleFormControlInput1" className=" fw-bolder fs-5 text-success form-label">Your Name :</label>
-                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder=""/>
+                <input type="text" className="form-control" id="exampleFormControlInput1" placeholder=""/>
                 <label for="exampleFormControlInput1" className="fw-bolder fs-5 text-success form-label">Your Phone No :</label>
-                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder=""/>
+                <input type="text" className="form-control" required id="exampleFormControlInput1" placeholder=""/>
                 <label for="exampleFormControlInput1" className="fw-bolder fs-5 text-success form-label"> Your Address :</label>
-                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder=""/>
+                <input type="text" className="form-control" required id="exampleFormControlInput1" placeholder=""/>
                 <label for="exampleFormControlInput1" className="fw-bolder fs-5 text-success form-label"> Delivery Point :</label>
-                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder=""/>
+                <input type="text" className="form-control"  required id="exampleFormControlInput1" placeholder=""/>
                 </div>
                 <div className="mb-3">
                 <label for="exampleFormControlTextarea1" className="fw-bolder fs-5 text-success form-label"> Anything Want To Say  </label>

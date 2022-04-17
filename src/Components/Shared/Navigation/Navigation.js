@@ -1,8 +1,12 @@
 import './Navigation.css'
 import logo from '../../../Images/logo.png'
+import { useAuthState} from 'react-firebase-hooks/auth';
+import { signOut } from 'firebase/auth';
 import { Link } from 'react-router-dom';
+import auth from '../../../firebase.init';
 
 const Navigation = () => {
+    const [user] = useAuthState(auth)
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
             <div className="container">
@@ -22,7 +26,14 @@ const Navigation = () => {
                     <Link className="nav-link active text-white fw-bolder fs-5 nav-section" aria-current="page" to='/about' >About</Link>
                     </li>
                </ul>
-            <Link to='/login'> <button className="btn btn-outline-danger px-5 py-2 rounded-pill fw-bolder" type="submit">Log In</button> </Link>
+               <span className='text-white pe-2 outline-danger '> {user?.displayName && user.displayName} </span>
+               {
+                   user?.uid ?
+                    <Link to='/login'> <button onClick={() => signOut(auth)} className="btn btn-outline-danger px-5 py-2 rounded-pill fw-bolder" type="submit"> Sign Out </button> </Link>
+                    : 
+                    <Link to='/login'> <button className="btn btn-outline-danger px-5 py-2 rounded-pill fw-bolder" type="submit">Log In</button> </Link>
+               }
+            
       </div>
   </div>
 </nav>

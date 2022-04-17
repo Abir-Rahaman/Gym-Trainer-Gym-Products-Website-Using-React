@@ -16,12 +16,12 @@ const Login = () => {
             <h4 className='text-center fw-bolder text-success mb-4'> Log In to RexXFit </h4>
             <div className="mb-3">
                 <label for="exampleInputEmail1" className="form-label text-success fw-bolder">Email address</label>
-                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                <input type="email" className="form-control" required id="exampleInputEmail1" aria-describedby="emailHelp"/>
                
             </div>
             <div className="mb-3">
                 <label for="exampleInputPassword1" className="form-label text-success fw-bolder">Password</label>
-                <input type="password" className="form-control" id="exampleInputPassword1"/>
+                <input type="password" className="form-control" required id="exampleInputPassword1"/>
             </div>
             <div className=" mb-3 ">
                 <Link className='pe-4 ms-5' to='/reset'> Reset password ? </Link>
