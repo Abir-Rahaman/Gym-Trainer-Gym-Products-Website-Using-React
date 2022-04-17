@@ -22,7 +22,7 @@ const Navigation = () => {
                     <Link className="nav-link active text-white fw-bolder fs-5 nav-section" aria-current="page" to='/about' >About</Link>
                     </li>
                </ul>
-            <button className="btn btn-outline-danger" type="submit">Log In</button>
+            <Link to='/login'> <button className="btn btn-outline-danger px-5 py-2 rounded-pill fw-bolder" type="submit">Log In</button> </Link>
       </div>
   </div>
 </nav>

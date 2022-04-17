@@ -1,42 +1,43 @@
 [
     {
       "id": "625afdedfc44b8eff411919e",
-      "img": "https://i.ibb.co/48QvCKs/body1.jpg",
+      "img": "https://i.ibb.co/vXyXm6X/body1-removebg-preview.png",
       "price": 200,
       "name": "Regular Subscription",
       "description": "We Offer an Unpretentious and Results-oriented Community that’s Invested in Your Goals."
     },
     {
       "id": "625afded53ebae0dfbd1861c",
-      "img": "https://i.ibb.co/yS6kVGm/body2.jpg",
+      "img": "https://i.ibb.co/dGm8tVg/body2-removebg-preview.png",
       "price": 500,
       "name": "Premium Subscription",
       "description": "Exceed your goals as our coaches take the time to build a solid foundation. Custom Programming."
     },
     {
       "id": "625afdedfb1ebcf12595d4d1",
-      "img": "https://i.ibb.co/VL5Xf0x/body3.jpg",
+      
+      "img": "https://i.ibb.co/J7kNV24/body3-removebg-preview.png",
       "price": 1200,
       "name": "Equipments",
       "description": "Speed & Cognitive Training Designed to Transform How We Exercise and Measure Performance."
     },
     {
       "id": "625afdedb769a5f8e02ee3a8",
-      "img": "https://i.ibb.co/SQLbDYd/body4.jpg",
+      "img": "https://i.ibb.co/ZfwVd0T/body4-removebg-preview.png",
       "price": 2000,
       "name": "Professional Trainer",
       "description": "Our personal trainers are ready to take your fitness journey to the next level and dedicated women's areas."
     },
     {
       "id": "625afded9bd953c53734b040",
-      "img": "https://i.ibb.co/RhbFhX4/body5.jpg",
+      "img": "https://i.ibb.co/Qnx8MgP/body5-removebg-preview.png",
       "price": 5000,
       "name": "Special Weight Lose Training",
       "description": "World-class equipment, luxurious club amenities, classes, ."
     },
     {
       "id": "625afded5ec955b6d7740462",
-      "img": "https://i.ibb.co/r5rHTJC/body6.jpg",
+      "img": "https://i.ibb.co/drgxv1S/body6-removebg-preview.png",
       "price": 10000,
       "name": "Gym Cloths",
       "description": "Experience Movati's World-Class gym equipment, fitness classes, & luxurious club amenities ."
