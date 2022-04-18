@@ -1,10 +1,11 @@
 .full-banner{
-    background-image: url('../../../Images/gym-banner.png');
+    background-image: url('../../../Images/GYM-BANNER.png');
     background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-position: center;
     height: 600px;
+   
 }
-
-
 .banner-title{
     font-size: 60px;
 }

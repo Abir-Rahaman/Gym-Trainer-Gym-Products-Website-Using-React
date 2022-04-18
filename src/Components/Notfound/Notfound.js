@@ -1,12 +1,11 @@
 import React from 'react';
+import notFound from '../../../src/Images/notfound.jpg'
 
 const Notfound = () => {
     return (
-        <section className='ms-5 ps-5'>
-                <div className='ms-5 ps-5'>
-                    <img className='ms-5 ps-5' src='https://thumbs.dreamstime.com/b/%C3%B0%C2%BF%C3%B0%C2%B5%C3%B1%E2%80%A1%C3%B0%C2%B0%C3%B1%E2%80%9A%C3%B1%C5%93-134036857.jpg'
-                    alt=''
-                    />
+        <section className='ms-5 ps-5 containe'>
+                <div className='ms-5 ps-5 d-flex'>
+                    <img className='ps-5 ms-5 w-50' src={notFound} alt="" />
             </div>
             </section>
     );
