@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import { useSendEmailVerification } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 
 import './SignIn.css'
@@ -14,6 +15,7 @@ const SignIn = () => {
     const [confirmPass , setConfirmPass] = useState("");
     const [error , setError] = useState("");
     const navigate = useNavigate();
+    const [sendEmailVerification] = useSendEmailVerification(auth);
 
 
     const handleName = event => {
@@ -71,7 +73,9 @@ const SignIn = () => {
             <div className=" mb-3 ">
                 <Link className='text-decoration-none d-block mt-3 text-center text-success fw-bolder' to='/login'> Already Have An Account ?  Log In </Link>
             </div>
-            <button  type="submit" className="btn btn-outline-success d-block mx-auto px-5 fw-bolder fs-5"> Register </button>
+            <button  onClick= {async () => {
+                await sendEmailVerification();
+               alert('Sent email');} }  type="submit" className="btn btn-outline-success d-block mx-auto px-5 fw-bolder fs-5"> Register </button>
         </form>
         </div>
     );
